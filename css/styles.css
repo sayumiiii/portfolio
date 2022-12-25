@@ -19,7 +19,7 @@
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
   --bs-green: #198754;
-  --bs-teal: #1abc9c;
+  --bs-teal: #115e4e;
   --bs-cyan: #0dcaf0;
   --bs-white: #fff;
   --bs-gray: #6c757d;
@@ -33,7 +33,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #1abc9c;
+  --bs-primary: #06392f;
   --bs-secondary: #2c3e50;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -236,7 +236,7 @@ sup {
 }
 
 a {
-  color: #1abc9c;
+  color: #8decd9;
   text-decoration: underline;
 }
 a:hover {
