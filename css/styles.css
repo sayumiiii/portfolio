@@ -11494,6 +11494,12 @@ html {
     font-size: 3rem;
     line-height: 2.5rem;
   }
+
+}
+@media (hover  :hover){
+  .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+    font-size: 1.5rem;
+  }
 }
 
 .footer {
