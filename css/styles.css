@@ -88,6 +88,14 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   overflow-x: hidden;
+  background-color: #07122b;
+}
+header{
+  background-image: url('/assets/img/portfolio/wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
 }
 
 hr {
@@ -490,8 +498,10 @@ progress {
 }
 
 .lead {
+  font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 1.25rem;
   font-weight: 300;
+  color: #000;
 }
 
 .display-1 {
@@ -3944,7 +3954,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #5e548e;
+  color: #10044d;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -7716,12 +7726,12 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: white !important;
 }
 
 .text-secondary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  color: #ffc107 !important;
 }
 
 .text-success {
@@ -7807,12 +7817,12 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color:#231942;
+  background-color:#ffc107;
 }
 
 .bg-secondary {
   --bs-bg-opacity: 1;
-  background-color: #231942;
+  background-color: #07122b;
 }
 
 .bg-success {
@@ -11316,9 +11326,9 @@ html {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: #2c3e50;
+  background-color: #ffca2c;
   border-radius: 1rem;
-  border-color: #2c3e50;
+  border-color: white;
 }
 .divider-custom .divider-custom-line:first-child {
   margin-right: 1rem;
@@ -11465,13 +11475,14 @@ html {
   border-radius: 0.5rem;
   overflow: hidden;
 }
+
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
   top: 0;
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: #3E6D9C ;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -11481,7 +11492,7 @@ html {
 }
 
 .portfolio-modal .btn-close {
-  color: #1abc9c;
+  color: black;
   font-size: 2rem;
   padding: 1rem;
 }
@@ -11511,4 +11522,19 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+iframe{
+  margin-left: 10em;
+  width: 640px;
+  height: 1000px;
+  margin-left: 12em;
+}
+@media (max-width: 992px) {
+  iframe{
+    margin-left: 10em;
+    width: 350px;
+    height: 570px;
+    margin-left: 1.5em;
+    border-left: 0em;
+  }
 }
