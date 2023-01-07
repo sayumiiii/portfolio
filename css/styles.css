@@ -156,6 +156,7 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 1.25rem;
+  color: rgb(158, 158, 0);
 }
 
 h6, .h6 {
@@ -501,7 +502,7 @@ progress {
   font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 1.25rem;
   font-weight: 300;
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 
 .display-1 {
@@ -2443,7 +2444,7 @@ textarea.form-control-lg {
   }
 }
 .form-select:focus {
-  border-color: #8ddece;
+  border-color: #8996d0;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(26, 188, 156, 0.25);
 }
@@ -2517,8 +2518,8 @@ textarea.form-control-lg {
   box-shadow: 0 0 0 0.25rem rgba(26, 188, 156, 0.25);
 }
 .form-check-input:checked {
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  background-color: #6777dc;
+  border-color: #5951d3;
 }
 .form-check-input:checked[type=checkbox] {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
@@ -2605,7 +2606,7 @@ textarea.form-control-lg {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #1abc9c;
+  background-color: #4f6cd7;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3041,14 +3042,14 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #9f86c0;
-  border-color: #9f86c0;
+  color: rgb(0, 0, 0);
+  background-color: #b1ac06;
+  border-color: #a1bd00;
 }
 .btn-primary:hover {
-  color: #fff;
-  background-color: #9f86c0;
-  border-color: #9f86c0;
+  color: rgb(149, 7, 7);
+  background-color: #6f8202;
+  border-color: #7c8e02;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -5544,7 +5545,7 @@ textarea.form-control-lg {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  background-color: white;
   background-clip: padding-box;
   border: 0.125rem solid rgba(0, 0, 0, 0.2);
   border-radius: 0.75rem;
@@ -11516,12 +11517,12 @@ html {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
+  background-color: black;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color:var(--bs-secondary) ;
 }
 iframe{
   margin-left: 10em;
