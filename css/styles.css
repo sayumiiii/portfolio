@@ -504,7 +504,7 @@ output {
 }
 
 iframe {
-  border: 0;
+  border: 0; 
 }
 
 summary {
@@ -7838,12 +7838,12 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color:#c14e4e;
+  background-color:#c14e4e !important;
 }
 
 .bg-secondary {
   --bs-bg-opacity: 1;
-  background-color: #07122b;
+  background-color: #07122b !important;
 }
 
 .bg-success {
@@ -11545,17 +11545,16 @@ html {
   background-color:var(--bs-secondary) ;
 }
 iframe{
-  margin-left: 10em;
-  width: 640px;
-  height: 1000px;
-  margin-left: 12em;
+  margin-left: 17em !important;
+  margin-right: 17em !important;
+  width: 670px !important;
+  height: 1000px !important;
 }
 @media (max-width: 992px) {
   iframe{
-    margin-left: 10em;
-    width: 350px;
-    height: 570px;
-    margin-left: 1.5em;
+    margin-left: 8em !important;
+    width: 350px !important;
+    height: 570px !important;
     border-left: 0em;
   }
 }
