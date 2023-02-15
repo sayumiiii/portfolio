@@ -91,7 +91,7 @@ body {
   background-color: #07122b;
 }
 header{
-  background-image: url('assets/img/portfolio/wallpaper.jpg');
+  background-image: url('../assets/img/portfolio/wallpaper.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
