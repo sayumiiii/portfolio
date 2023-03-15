@@ -8003,6 +8003,41 @@ textarea.form-control-lg {
 .invisible {
   visibility: hidden !important;
 }
+.btn-code {
+  position: relative;
+  font-size: 1em;
+  padding: .1em 1.4em;
+  background-color: #BF0426;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.5em;
+  color: #DEDEDE;
+  box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+}
+
+.btn-code::before {
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 0;
+  top: 0;
+  left: 0;
+  background: linear-gradient(135deg, white 0%, white 50%, white 50%, rgba(191,4,38,1) 60%);
+  border-radius: 0 0 0.5em 0;
+  box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+.btn-code:hover::before {
+  width: 1.6em;
+  height: 1.6em;
+}
+
+.btn-code:active {
+  box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
+  transform: translate(0.1em, 0.1em);
+}
+
 
 @media (min-width: 576px) {
   .float-sm-start {
